@@ -146,6 +146,9 @@ class Blaze  {
      function get_mining_info(){
          return $this->client->getmininginfo();
      }
+     function get_coin_info(){
+     	return $this->client->getinfo();
+     }
 
      /**
       * Returns the transaction history of a specific blazecoin account
